@@ -3,8 +3,8 @@
 1.Clone the Repository:
   Clone the repository containing the Django project and navigate to the project directory:
   
-    >>git clone <repository_url>
-    >> cd geo
+    git clone <repository_url>
+    cd geo
     
 2.Install Requirements:
   Install the required Python packages specified in the requirements.txt file:
