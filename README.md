@@ -8,8 +8,8 @@
     
 2.Install Requirements:
   Install the required Python packages specified in the requirements.txt file:
-  
-  >> pip install -r requirements.txt
+
+>  >  pip install -r requirements.txt
 
 3.Set Up the PostgreSQL Database:
   Ensure that you have PostgreSQL installed and create a new database for the project. Update the database settings in geo/settings.py to use your 
