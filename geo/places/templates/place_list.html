@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Places List</title>
+    {% load static %}
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}"/>
+</head>
+<body>
+    <h1>Places List</h1>
+    <form id="search-form">
+        <input type="text" id="search-input" placeholder="Search for places..." />
+        <button type="submit">Search</button>
+    </form>
+    <div id="map"></div>
+    <ul id="places-list">
+    </ul>
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="{% static 'js/map.js' %}"></script>
+</body>
+</html>
