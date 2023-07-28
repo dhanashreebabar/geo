@@ -9,7 +9,8 @@
 2.Install Requirements:
   Install the required Python packages specified in the requirements.txt file:
 
->  >  pip install -r requirements.txt
+
+        pip install -r requirements.txt
 
 3.Set Up the PostgreSQL Database:
   Ensure that you have PostgreSQL installed and create a new database for the project. Update the database settings in geo/settings.py to use your 
@@ -17,12 +18,14 @@
 
 4.Migrate the Database:
   Run the database migrations :
-  >> python manage.py makemigrations
-  >> python manage.py migrate
+  
+           python manage.py makemigrations
+           python manage.py migrate
 
 5.Run the Development Server:
     Start the Django development server:
-    >> python manage.py runserver
+    
+        python manage.py runserver
     
 6.Access the API Endpoints:
   The API endpoints are accessible at 
@@ -32,17 +35,20 @@
 
 7.Install Node.js Dependencies:
     In the root directory of the project, install the required Node.js dependencies:
-    >>npm install
-    >> npm install --save-dev jest jsdom
+    
+      npm install
+      npm install --save-dev jest jsdom
 
 8.Run the JavaScript Tests:
   Run the JavaScript tests to ensure that the template is rendering correctly and the map integration and dynamic search functionality are working   
   as expected:
-  >> npm test
+
+       npm test
 
 9.Django API Testing:
  for testing the Django API, Run the following command to execute your Django API tests:
->  > python manage.py test
+ 
+      python manage.py test
 
 10.Access the Application:
   Finally, access the application by visiting http://localhost:8000/places/ in your web browser. You should see the Places List page with an   
