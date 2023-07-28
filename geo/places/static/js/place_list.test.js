@@ -4,7 +4,7 @@ const { JSDOM } = require('jsdom');
 
 test('Place list page renders correctly', () => {
   // Read the contents of the place_list.html file
-  const filePath = path.join(process.cwd(), 'myworld/geo/places/templates/place_list.html');
+  const filePath = path.join(process.cwd(), 'geo/places/templates/place_list.html');
   const html = fs.readFileSync(filePath, 'utf8');
 
   // Create a virtual DOM environment using jsdom
