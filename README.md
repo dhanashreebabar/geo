@@ -2,11 +2,13 @@
 
 1.Clone the Repository:
   Clone the repository containing the Django project and navigate to the project directory:
+  
     >>git clone <repository_url>
     >> cd geo
     
 2.Install Requirements:
   Install the required Python packages specified in the requirements.txt file:
+  
   >> pip install -r requirements.txt
 
 3.Set Up the PostgreSQL Database:
@@ -37,7 +39,11 @@
   Run the JavaScript tests to ensure that the template is rendering correctly and the map integration and dynamic search functionality are working   
   as expected:
   >> npm test
-9.
+
+9.Django API Testing:
+ for testing the Django API, Run the following command to execute your Django API tests:
+>  > python manage.py test
+
 10.Access the Application:
   Finally, access the application by visiting http://localhost:8000/places/ in your web browser. You should see the Places List page with an   
   interactive map, search form, and the list of places.
